@@ -1,0 +1,76 @@
+*{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --main-bg-color: #182258;
+    --main-text-color: white;
+    --main-center: center;
+}
+
+.banner{
+    background-color: var(--main-bg-color);
+    padding: 100px;
+    position: relative;
+    color: var(--main-text-color);
+}
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.navbar a{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    color: var(--main-text-color);
+}
+
+h1,h2, h5{
+    text-align: var(--main-center);
+}
+
+.info{
+    margin-top: 10px;
+    color: var(--main-bg-color);
+}
+
+.subtitle{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: var(--main-center);
+}
+
+video{
+    border: solid 5px var(--main-bg-color);
+}
+
+:focus{
+    outline: 2px solid var(--main-bg-color);
+}
+
+button{
+    cursor: pointer;
+}
+
+input[type="submit"], input[type="reset"]{
+    cursor: pointer;
+}
+
+.custom-center {
+    margin: -15px; 
+}
+
+
+
+
+
+
+
+
+
+
+
