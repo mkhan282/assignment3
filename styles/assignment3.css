@@ -38,6 +38,7 @@ h1,h2, h5{
     margin-top: var(--common-padding);
     color: var(--main-bg-color);
     text-align: var(--main-center);
+    font-size: 20px;
 }
 
 .subtitle{
