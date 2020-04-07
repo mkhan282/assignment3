@@ -37,6 +37,7 @@ h1,h2, h5{
 .info{
     margin-top: var(--common-padding);
     color: var(--main-bg-color);
+    text-align: var(--main-center);
 }
 
 .subtitle{
